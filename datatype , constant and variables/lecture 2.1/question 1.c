@@ -8,13 +8,13 @@ int main(){
   
   printf("addition : %d",a+b);
 
-  printf("\nsubtraction : %d",a-b);
+  printf("\n subtraction : %d",a-b);
 
-  printf("\nmultiplication : %d",a*b);
+  printf("\n multiplication : %d",a*b);
 
-  printf("\ndivision : %d",a/b);
+  printf("\n division : %d",a/b);
 
-  printf("\nmodulo : %d",a%b);
+  printf("\n modulo : %d",a%b);
   
   return 0;
 }
