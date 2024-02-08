@@ -2,15 +2,24 @@
 
 int main(void) { 
   
-int Bs;
+int BS;
 int HRA;
 int TA;
 int DA;
 
-  printf("enter your number :");
-
-  scanf("%d\n%d\n%d\n%d",&Bs,&HRA,&TA,&DA);
-  printf("\n your salary is : %d",Bs+HRA+DA+TA);
+  printf("enter the number of BS :");
+  scanf("%d",&BS);
+  
+  printf("\nenter the number of HRA :");
+  scanf("%d",&HRA);
+  
+  printf("\nenter the number of TA :");
+  scanf("%d",&TA);
+  
+  printf("\nenter the number of DA :");
+  scanf("%d",&DA);
+  
+  printf("\n your salary is : %d",BS+HRA+DA+TA);
 
   return 0;
 }
