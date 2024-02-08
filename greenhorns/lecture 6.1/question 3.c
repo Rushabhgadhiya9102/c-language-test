@@ -7,7 +7,7 @@ int main(){
   printf("type your angle:");
   scanf("%d",&first);
 
-  printf("type your amgle :");
+  printf("type your angle :");
   scanf("%d",&second);
 
   int third=180-(first+second);
