@@ -2,7 +2,7 @@
 
 int main(){
     int first;
-  int second;
+    int second;
 
   printf("type your angle:");
   scanf("%d",&first);
