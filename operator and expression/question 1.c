@@ -9,17 +9,12 @@ int main(){
   printf("enter the second number : ");
   scanf("%d",&b);
 
-  printf("enter the third number : ");
-  scanf("%d",&c);
-
-
+  c=a;
   a=b;
   b=c;
-  c=a;
 
   printf("the first swapping result is : %d\n",a);
   printf("the second swapping result is : %d\n",b);
-  printf("the third swapping result is : %d\n",c);
-
+ 
   return 0;
 }
