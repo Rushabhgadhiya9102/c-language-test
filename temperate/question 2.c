@@ -2,19 +2,15 @@
 
 int  main(){
 
-  int a;
-  int b = 0;
-  int c = 1;
-  
+  int a,b=0;  
 
   printf("enter the number :");
   scanf("%d",&a);
 
-  while(a>0)
+  while(a!=0)
     {
-      b=a%10;
       a=a/10;
-      b=c++;
+      b++;
     }
   printf("the result is %d",b);
 
