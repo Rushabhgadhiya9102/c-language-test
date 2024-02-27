@@ -1,30 +1,28 @@
-//minimum value
+#include<stdio.h>
+int main()
+{
+  int a,b,c,min;
+  printf("enter the value of a:");
+  scanf("%d", &a);
+  printf("enter the value of b:");
+  scanf("%d", &b);
+  printf("enter the value of c:");
+  scanf("%d", &c);
+   if (a < b) {
+          if (a < c) {
+              min = a;
+          } else {
+              min = c;
+          }
+      } else {
+          if (b < c) {
+              min = b;
+          } else {
+              min = c;
+          }
+      }
 
-#include  <stdio.h>
-int main(){
+      printf("Minimum number is: %d", min);
 
-int a,b,c;
-
-  printf ("enter the value of a :");
-  scanf ("%d",&a);
-
-  printf ("enter the value of b :");
-  scanf ("%d",&b);
-
-  printf ("enter the value of c :");
-  scanf("%d",&c);
-
-  if (a<c){
-    if(a<b){
-      printf ("%d is the smallest number",a);
-    }else{
-      printf ("%d is the smallest number",b);
-    }       
-    }else if (b<c){
-      printf ("%d is the smallest number",b);
-    }else{
-      printf ("%d is the smallest number",c);
-    }
-  
-  return 0;
-}
+      return 0;
+  }
