@@ -5,8 +5,8 @@ int num;
   printf("please enter the value :");
   scanf("%d",&num);
 
-  (num%2==0)?printf("odd"):printf("even");
+  (num%2==0)?printf("even"):printf("odd");
 
   return 0;
-  
+
 }
