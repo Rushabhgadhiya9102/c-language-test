@@ -14,7 +14,6 @@ int main() {
         scanf("%d",&arr[i]);
     }
     
-     printf(" ");
     for(i=0;i<n;i++)
     {
         if(arr[i]<0)
