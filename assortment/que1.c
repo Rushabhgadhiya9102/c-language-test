@@ -14,12 +14,12 @@ int main() {
         scanf("%d",&arr[i]);
     }
     
-     printf("The Negative Element In Array Is ");
+     printf(" ");
     for(i=0;i<n;i++)
     {
         if(arr[i]<0)
         {
-            printf("%d\t",arr[i]);
+            printf("The negative element in array is : %d\t",arr[i]);
         }
     }
    
