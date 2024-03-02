@@ -20,7 +20,7 @@ int main() {
         }
     }
 
-    printf("\noriginal matrix\n");
+    printf("\noriginal matrix :\n");
     for (int i=0;i<a;i++)
       {
         for(int j=0;j<b;j++)
