@@ -10,11 +10,12 @@ int main() {
     scanf("%d",&b);
 
     int arr[a][b];
-    printf("enter the element of the matrix :\n");
+   
     for (int i=0;i<a;i++)
     {
         for(int j=0;j<b;j++)
         {
+            printf("enter the element of (%d,%d) :",i,j);
             scanf("%d",&arr[i][j]);
         }
     }
