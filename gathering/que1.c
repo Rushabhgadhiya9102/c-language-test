@@ -1,89 +1,97 @@
 #include <stdio.h>
+#include <math.h>
 
+           // function blueprint
+
+float addition(float a, float b);
+float substraction(float a, float b);
+float multiplication(float a, float b);
+float division(float a, float b);
+float modulas(float a,float b);
 
             //user define function
 
-int addtion(int a, int b)
+ float addition(float a, float b)
 {
     return a+b;
 }
-int substraction(int a, int b)
+float substraction(float a, float b)
 {
     return a-b;
 }
-int multiplication(int a, int b)
+float multiplication(float a, float b)
 {
     return a*b;
 }
-int division(int a, int b)
+float division(float a, float b)
 {
     return a/b;
 }
-int modulas(int a, int b)
+float modulas(float a, float b)
 {
-    return a%b;
+    return fmod(a,b);
 }
 
             // main function
 int main(){
 
-int a, b;
-int op;
+float a, b;
+int op ,button;
 
-printf("press 1 for addition\n");
-printf("press 2 for substraction\n");
-printf("press 3 for multiplication\n");
-printf("press 4 for division\n");
-printf("press 5 for modulas\n");
-printf("press 6 for quit\n");
+printf("\twelcome\n\n");
 
 while(1)
 {
-
+    
+     printf("press 1 for addition\n");
+     printf("press 2 for substraction\n");
+     printf("press 3 for multiplication\n");
+     printf("press 4 for division\n");
+     printf("press 5 for modulas\n");
+     printf("press 6 for quit\n");
+    
     printf("\nenter the opertator :");
     scanf("%d",&op);
 
     if(op==6)
      {
+        printf("\n\tGood bye");
        break;
      }
 
     printf("\nenter the number :");
-    scanf("%d",&a);
+    scanf("%f",&a);
 
     printf("\nenter the number :");
-    scanf("%d",&b);
+    scanf("%f",&b);
     
     switch(op)
     {
         
         case 1:
-        printf("\nthe addition is : %d \n",addtion(a,b));
+        printf("\nthe addition is : %f \n\n",addition(a,b));
         break;
 
         case 2:
-        printf(" \nthe sudstraction is : %d\n ",substraction(a,b));
+        printf(" \nthe sudstraction is : %f\n\n ",substraction(a,b));
         break;
 
         case 3:
-        printf(" \nthe multiplication is : %d \n",multiplication(a,b));
+        printf(" \nthe multiplication is : %f \n\n",multiplication(a,b));
         break;
 
         case 4:
-        printf("\n the division is : %d \n",division(a,b));
+        printf("\n the division is : %f \n\n",division(a,b));
         break;
 
         case 5:
-        printf(" \nthe modulas is : %d \n",modulas(a,b));
+        printf(" \nthe modulas is : %f \n\n",modulas(a,b));
         break;
 
         default:
-        printf("invalid ");
+        printf("Wrong choice");
         break;
-  
     }
-
 }
-
     return 0;
 }
