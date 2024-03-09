@@ -101,7 +101,7 @@ while(1)
     }
 
 }
-}
+}else{printf("\n\tsorry couldn't able to start\n");}
 
     return 0;
 }
