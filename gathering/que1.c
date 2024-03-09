@@ -36,26 +36,32 @@ float modulas(float a, float b)
 int main(){
 
 float a, b;
-int op ,button;
+int op ;
+char button;
 
-printf("\twelcome\n\n");
+printf("\t\twelcome\n\n");
 
+printf("\tpress 's' to start : ");
+scanf("%c",&button);
+
+if(button == 's')
+{
 while(1)
 {
     
-     printf("press 1 for addition\n");
+     printf("\npress 1 for addition\n");
      printf("press 2 for substraction\n");
      printf("press 3 for multiplication\n");
      printf("press 4 for division\n");
      printf("press 5 for modulas\n");
-     printf("press 6 for quit\n");
+     printf("press 0 for exit\n");
     
     printf("\nenter the opertator :");
     scanf("%d",&op);
 
-    if(op==6)
+    if(op==0)
      {
-        printf("\n\tGood bye");
+        printf("\n\t\tGood bye");
        break;
      }
 
@@ -91,7 +97,11 @@ while(1)
         default:
         printf("Wrong choice");
         break;
+  
     }
+
 }
+}
+
     return 0;
 }
