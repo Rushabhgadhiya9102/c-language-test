@@ -4,7 +4,7 @@
            // function blueprint
 
 float addition(float a, float b);
-float substraction(float a, float b);
+float subtraction(float a, float b);
 float multiplication(float a, float b);
 float division(float a, float b);
 float modulas(float a,float b);
@@ -15,7 +15,7 @@ float modulas(float a,float b);
 {
     return a+b;
 }
-float substraction(float a, float b)
+float subtraction(float a, float b)
 {
     return a-b;
 }
@@ -50,7 +50,7 @@ while(1)
 {
     
      printf("\npress 1 for addition\n");
-     printf("press 2 for substraction\n");
+     printf("press 2 for subtraction\n");
      printf("press 3 for multiplication\n");
      printf("press 4 for division\n");
      printf("press 5 for modulas\n");
@@ -79,7 +79,7 @@ while(1)
         break;
 
         case 2:
-        printf(" \nthe sudstraction is : %f\n\n ",substraction(a,b));
+        printf(" \nthe subtraction is : %f\n\n ",subtraction(a,b));
         break;
 
         case 3:
