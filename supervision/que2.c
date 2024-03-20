@@ -25,7 +25,7 @@ for(int i=0;i<5;i++)
     scanf("%d",&students[i].roll_no);
 
     printf("Name : ");
-    scanf("%s",&students[i].name);
+    scanf("%s", students[i].name);
 
     printf("Chemistry : ");
     scanf("%d",&students[i].chemistry);
