@@ -9,14 +9,16 @@ struct students{
     int physics;
 };
 
-int main(){
-
-struct students students[5];
-
 float percentage(int total_marks)
 {
     return (float)total_marks/300*100;
 }
+
+int main(){
+
+struct students students[5];
+
+
 
 for(int i=0;i<5;i++)
 {
