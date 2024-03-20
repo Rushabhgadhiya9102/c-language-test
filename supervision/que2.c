@@ -43,17 +43,17 @@ float percentage(int total_marks)
     {
         printf("%s (%d)\n", students[i].name, students[i].rn);
 
-        printf("Chemistry => %d\n", students[i].chem);
+        printf("Chemistry = %d\n", students[i].chem);
 
-        printf("Mathematics => %d\n", students[i].maths);
+        printf("Mathematics = %d\n", students[i].maths);
 
-        printf("Physics => %d\n", students[i].physics);
+        printf("Physics = %d\n", students[i].physics);
 
         int total_marks = students[i].chem + students[i].maths + students[i].physics;
 
-        printf("Total => %d/300\n", total_marks);
+        printf("Total = %d/300\n", total_marks);
 
-        printf("Percent => %.2f%%\n\n", percentage(total_marks));
+        printf("Percent = %.2f%%\n\n", percentage(total_marks));
  }
   
 
