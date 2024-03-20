@@ -8,14 +8,12 @@ evenfile = fopen("even_file.txt","w");
 if(evenfile == NULL)
 {
     printf("unable to open the file \n ");
-    return 0;
 }
 
 oddfile = fopen("odd_file.txt","w");
 if(oddfile == NULL)
 {
     printf("unable to open the file \n ");
-    return 0;
 }
 
 for(int i=50 ; i<=70 ; i++)
